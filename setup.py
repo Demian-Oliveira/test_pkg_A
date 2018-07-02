@@ -13,11 +13,8 @@ setup(
     # install_requires=['numpy'],
 
     # *strongly* suggested for sharing
-    #
-    # git tag v0.0.2
-    # git push --tags
-    #
-    version='0.0.2',
+    version='0.0.3',
+
     license='private test code',
     description='any description',
     # We will also need a readme eventually (there will be a warning)
