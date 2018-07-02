@@ -7,11 +7,17 @@ setup(
     author='Dmyan',
     author_email='dmyan@qwerty.com',
     # Needed to actually package something
-    packages=['src'],
+    packages=['packagea'],
+
     # # Needed for dependencies
     # install_requires=['numpy'],
+
     # *strongly* suggested for sharing
-    version='0.0.1',
+    #
+    # git tag v0.0.2
+    # git push --tags
+    #
+    version='0.0.2',
     license='private test code',
     description='any description',
     # We will also need a readme eventually (there will be a warning)
