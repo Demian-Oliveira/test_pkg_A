@@ -13,7 +13,7 @@ setup(
     # install_requires=['numpy'],
 
     # *strongly* suggested for sharing
-    version='0.0.3',
+    version='0.0.4',
 
     license='private test code',
     description='any description',

@@ -9,10 +9,11 @@ class PackageA:
     def __init__(self):
         pass
 
-    def get_version(self):
-        # require = lower(name) -> name='PackageA',
-        version = pkg_resources.require("packagea")[0].version
-        return version
+    # def get_version(self):
+    #     # require = lower(name) -> name='PackageA',
+    #     version = pkg_resources.require("packagea")[0].version
+    #     return version
 
     def print_version(self):
-        print('Package_A: {}'.format(self.get_version()))
+        version = pkg_resources.require("packagea")[0].version
+        print('Package_A: {}'.format(version))
