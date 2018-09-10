@@ -15,5 +15,8 @@ class PackageA:
     #     return version
 
     def print_version(self):
-        version = pkg_resources.require("packagea")[0].version
-        print('Package_A: {}'.format(version))
+        try:
+            version = pkg_resources.require("packagea")[0].version
+            print('Package_A: {}'.format(version))
+        except:
+            print('=== Package_A ===')
